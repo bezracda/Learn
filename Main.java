@@ -79,19 +79,19 @@ public class Main {
                         System.exit(0);
                     }
                 }
-            if (sign.equals(plus) && A <= 10 && B <= 10) {
+            if (sign.equals(plus)) {
                 c = A + B;
                 input = String.valueOf(c);
             }
-            if (sign.equals(minus) && A <= 10 && B <= 10) {
+            if (sign.equals(minus)) {
                 c = A - B;
                 input = String.valueOf(c);
             }
-            if (sign.equals(pr) && A <= 10 && B <= 10) {
+            if (sign.equals(pr)) {
                 c = A * B;
                 input = String.valueOf(c);
             }
-            if (sign.equals(del) && B != 0 && A <= 10 && B <= 10) {
+            if (sign.equals(del) && B != 0) {
                 c = A / B;
                 input = String.valueOf(c);
             }
